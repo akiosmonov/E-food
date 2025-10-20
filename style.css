@@ -329,7 +329,8 @@ body {
         display: flex;
         img {
           position: relative;
-          /* top: 30px; */
+          left: 30px;
+          bottom: 5px;
         }
         p {
           margin-left: 25px;
@@ -350,58 +351,14 @@ body {
           background: rgba(255, 122, 80, 1);
           img {
             position: relative;
-            top: 5px;
+            top: 3px;
+            left: 1px;
           }
         }
       }
     }
   }
-  .content2 {
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-around;
-    .menu {
-      width: 361px;
-      h2 {
-        margin-left: 20px;
-        font-family: Rubik;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
-        letter-spacing: 0%;
-        color: rgba(54, 56, 83, 1);
-      }
-      .time {
-        display: flex;
-        img {
-          position: relative;
-          /* top: 30px; */
-        }
-        p {
-          margin-left: 25px;
-          font-family: Rubik;
-          font-weight: 300;
-          font-size: 18px;
-          line-height: 30px;
-          letter-spacing: 0%;
-          color: rgba(54, 56, 83, 1);
-        }
-        button {
-          padding: 5px 30px;
-          border-top-left-radius: 20px;
-          border-top-right-radius: 20px;
-          border-bottom-left-radius: 20px;
 
-          border: none;
-          background: rgba(255, 122, 80, 1);
-          img {
-            position: relative;
-            top: 5px;
-          }
-        }
-      }
-    }
-  }
 }
 .mobile-app {
   margin-top: 250px;
@@ -589,6 +546,7 @@ body {
   }
   .footer-nav {
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     h1 {
